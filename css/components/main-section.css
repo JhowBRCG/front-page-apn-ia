@@ -11,7 +11,7 @@
   border-bottom: 5px rgb(44, 44, 85) solid;
 }
 
-@media (max-width: 508px) {
+@media (max-width: 863px) {
   .main-section {
     height: 100%;
   }
