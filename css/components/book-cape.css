@@ -1,8 +1,18 @@
 .book-cape {
   display: block;
+  width: 166px;
+  height: 269px;
   margin: 50px auto auto auto;
 }
 
 .margin-top {
   margin-top: 100px;
+}
+
+.wrapper-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
