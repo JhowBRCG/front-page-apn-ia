@@ -1,0 +1,25 @@
+.main-button {
+  padding: 25px 30px;
+  background: rgb(44, 44, 85);
+  color: white;
+  font-size: 2rem;
+}
+
+@media (max-width: 400px) {
+  .main-button {
+    padding: 25px 15px;
+    font-size: 1.5rem;
+  }
+}
+
+.main-button:hover {
+  border: 4px solid rgba(255, 255, 0, 0.651);
+  border-image: linear-gradient(to right, rgb(16, 11, 83), rgb(27, 27, 233)) 1;
+}
+
+.wrapper-main-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,15 @@
+.section-two {
+  background: rgb(53, 45, 71);
+  background: linear-gradient(
+    90deg,
+    rgba(53, 45, 71, 1) 0%,
+    rgba(33, 118, 170, 1) 44%,
+    rgba(0, 4, 8, 1) 100%
+  );
+  padding: 80px;
+}
+
+.wrapper-second-button {
+  text-align: center;
+  margin-top: 100px;
+}

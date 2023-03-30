@@ -1,0 +1,6 @@
+.main-image {
+  max-width: 400px;
+  width: 100%;
+  border: 5px solid black;
+  border-image: linear-gradient(to right, rgb(16, 11, 83), rgb(27, 27, 233)) 1;
+}

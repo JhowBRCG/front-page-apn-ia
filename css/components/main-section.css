@@ -1,0 +1,31 @@
+.main-section {
+  background-image: url("../../assets/imgs/sleep.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 183px 60px 250px 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px rgb(44, 44, 85) solid;
+}
+
+@media (max-width: 508px) {
+  .main-section {
+    height: 100%;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+@media (max-width: 860px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+}
