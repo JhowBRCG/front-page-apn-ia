@@ -2,3 +2,7 @@
   display: block;
   margin: 50px auto auto auto;
 }
+
+.margin-top {
+  margin-top: 100px;
+}
